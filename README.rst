@@ -81,7 +81,7 @@ Here is an example of how you can use beautifultable::
 
     >>> from beautifultable import BeautifulTable
     >>> table = BeautifulTable()
-    >>> table.rows.append(["Jacob", 1, "boy"])
+    >>> table.rows.append(["Sam", 1, "x"])
     >>> table.rows.append(["Isabella", 1, "girl"])
     >>> table.rows.append(["Ethan", 2, "boy"])
     >>> table.rows.append(["Sophia", 2, "girl"])
@@ -92,13 +92,13 @@ Here is an example of how you can use beautifultable::
     +----+----------+------+--------+
     |    |   name   | rank | gender |
     +----+----------+------+--------+
-    | S1 |  Jacob   |  1   |  boy   |
+    | S1 |   Sam    |  1   |   x    |
     +----+----------+------+--------+
     | S2 | Isabella |  1   |  girl  |
     +----+----------+------+--------+
     | S3 |  Ethan   |  2   |  boy   |
     +----+----------+------+--------+
-    | S4 |  Sophia  |  2   |  girl  |
+    | S4 |  Billie  |  2   |   x    |
     +----+----------+------+--------+
     | S5 | Michael  |  3   |  boy   |
     +----+----------+------+--------+
